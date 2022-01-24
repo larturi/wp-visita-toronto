@@ -1,0 +1,17 @@
+/*
+    Theme name: Toronto WP
+    Theme URI: http://www.wp-themes.com/
+    Description: Toronto WP is a simple and clean WordPress theme.
+    Author: Leandro Arturi
+    Author URI: http://leandroarturi.com/
+    Version: 1.0
+    Tags: basic, clean, minimal, portfolio, responsive, theme, wordpress
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain: Toronto-website-wp
+
+*/
+
+body {
+    background-color: red;
+}
