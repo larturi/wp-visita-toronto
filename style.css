@@ -12,6 +12,21 @@
 
 */
 
-body {
-    background-color: red;
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #292929;
+}
+
+header {
+    background-color: #a00622;
+}
+
+header img {
+    width: 350px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
 }

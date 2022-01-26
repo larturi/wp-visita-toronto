@@ -13,11 +13,9 @@
 
         <header id="masthead" class="site-header" role="banner">
             <div class="container">
-                <h1 class="site-title">
-                    <a href="<?php echo esc_url(home_url('/')); ?>">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="">
-                    </a>
-                </h1>
+                <a href="<?php echo esc_url(home_url('/')); ?>">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="">
+                </a>
             </div>
         </header>
 
