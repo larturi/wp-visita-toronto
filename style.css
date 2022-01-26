@@ -18,12 +18,41 @@ html {
     color: #292929;
 }
 
+.clear {
+    clear: both;
+}
+
 header {
     background-color: #a00622;
 }
 
 header img {
     width: 350px;
+}
+
+header .logo {
+    width: 400px;
+    float: left;
+}
+
+header nav {
+    width: 500px;
+    float: right;
+    margin-top: 30px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .container {
