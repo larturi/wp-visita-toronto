@@ -93,3 +93,14 @@ footer .copyright p {
     color: #a00622;
     text-align: center;
 }
+
+#primary {
+    float: left;
+    width: 720px;
+}
+
+#secondary {
+    float: right;
+    width: 370px;
+    margin-left: 10px;
+}
