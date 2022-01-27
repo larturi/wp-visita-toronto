@@ -1,14 +1,17 @@
 <?php get_header(); ?>
 
-<div id="primary" class="primary">
-    <?php 
-        while ( have_posts() ) : the_post();
-            the_title();
-            the_content(); 
-        endwhile; 
-    ?>
-</div>
+    <?php while ( have_posts() ) : the_post(); ?>
 
-<?php get_sidebar(); ?>
+        <div class="destacada">
+            <?php the_post_thumbnail('destacada'); ?>
+            <h2><?php the_title(); ?></h2>
+        </div>
+         
+        <div id="primary" class="primary">
+            <?php the_content(); ?>
+        </div>
+    <?php endwhile; ?>
+
+    <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

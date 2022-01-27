@@ -7,6 +7,10 @@
     }
     add_action('wp_enqueue_scripts', 'theme_scripts');
 
+    add_theme_support('post-thumbnails');
+
+    add_image_size('destacada', 1100, 418, true);
+
     // Menus
     register_nav_menus(
         array(
