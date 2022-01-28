@@ -18,6 +18,20 @@
         )
     );
 
+    // Widgets
+    function theme_widgets() {
+        register_sidebar( array(
+            'name' => __('Sidebar Testimoniales'),
+            'id' => 'sidebar-testimoniales',
+            'description' => __('Widgets para testimoniales'),
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>'
+        ));
+    }
+    add_action('widgets_init', 'theme_widgets');
+
     // Ocultar barra menu de WordPress
     add_filter('show_admin_bar', '__return_false');
 

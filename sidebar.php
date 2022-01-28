@@ -1,5 +1,7 @@
 <div id="secondary" class="secondary">
-    Sidebar aqui
+    <div id="testimoniales">
+        <?php dynamic_sidebar('sidebar-testimoniales'); ?>
+    </div>
 </div>
 
 <div class="clear"></div>

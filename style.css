@@ -130,3 +130,64 @@ h2.noimagen {
     padding-bottom: 30px;
     border: 1px solid #a00622;
 }
+
+/* Sidebar */
+
+#testimoniales h3 {
+    color: #a00622;
+    font-size: 1.5em;
+}
+
+#testimoniales .textwidget {
+    font-size: 20px;
+    line-height: 34px;
+    color: #767676;
+    background-image: url('img/svg_comilla.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 86px;
+    font-style: italic;
+}
+
+#testimoniales .textwidget span {
+    display: block;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+#testimoniales .textwidget span {
+	display: block;
+	text-align: right;
+	font-style: normal;
+}
+
+footer {
+
+}
+
+footer nav {
+	float: left;
+	width: 500px;
+	margin-top: 30px;
+}
+footer nav ul {
+	list-style: none;
+}
+
+footer nav ul li {
+	display: inline; 
+	margin-right: 20px;
+}
+footer nav ul li a {
+	color: #a00622;
+	text-decoration: none;
+}
+
+footer hr {
+	border: 2px solid #a00622;
+}
+
+footer .copyright p {
+	color: #a00622;
+	text-align: center;
+}
