@@ -121,3 +121,12 @@ footer .copyright p {
     padding: 10px 15px;
     color: #fff;
 }
+
+h2.noimagen {
+    color: #a00622;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #a00622;
+}
