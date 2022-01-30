@@ -10,6 +10,7 @@
     add_theme_support('post-thumbnails');
 
     add_image_size('destacada', 1100, 418, true);
+    add_image_size('guia-toronto', 350, 210, true);
 
     // Menus
     register_nav_menus(
