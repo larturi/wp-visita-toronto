@@ -12,11 +12,18 @@
         <?php } ?>
 
         <div id="primary" class="primary">
-            <?php the_tags(); ?> <br>
 
-            <?php _e('Categorizado en: '); the_category(', '); ?> <br>
-
-            <?php _e('Esta entrada fue escrita por: '); the_author(); ?> <br>
+            <div class="publicacion">
+                <div class="columna">
+                    <?php the_tags(); ?> <br>
+                </div>
+                <div class="columna">
+                    <?php _e('Categorizado en: '); the_category(', '); ?> <br>
+                </div>
+                <div class="columna">
+                    <?php _e('Escrita por: <span>'); the_author(); ?></span> <br>
+                </div>
+            </div>
 
             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 <?php the_content(); ?>

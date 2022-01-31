@@ -22,7 +22,7 @@
                 'category__in' => array(6,5,4),
                 'posts_per_page' => -1,
                 'orderby' => 'date',
-                'order' => 'DEC'
+                'order' => 'DESC'
             );
             $guiaToronto = new WP_Query( $args );            
         ?>
